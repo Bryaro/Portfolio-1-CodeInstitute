@@ -117,6 +117,9 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
+    main {
+        margin-top: 95px;
+    }
 
     h1 {
         padding-top: 10px;
@@ -133,7 +136,6 @@ footer {
     .menu {
         display: flex;
     }
-
 
     .menu>li {
         padding-left: 1rem;
