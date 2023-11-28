@@ -32,6 +32,7 @@ header {
     align-items: baseline;
 }
 
+
 ul {
     list-style-type: none;
 }
@@ -63,15 +64,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-main {
-    background-color: lightseagreen;
-    /* makes the main element to take up the excess space to push down the footer */
-    flex: 1 0 auto;
-}
 
-footer {
-    background-color: lightgray;
-}
 
 /* ----------------- NAV DROP DOWN ----------------- */
 nav {
@@ -101,10 +94,63 @@ nav {
     font-size: 150%;
 }
 
+
+
 /* ----------------- MAIN ----------------- */
+
 main {
-    margin-top: 94px;
+    background-color: rgb(123, 125, 125);
+    /* makes the main element to take up the excess space to push down the footer */
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+/* ----------------- FOOTER ----------------- */
+footer {
+    background-color: lightgray;
 }
 
 
-/* ----------------- FOOTER ----------------- */
+
+/* ----------------- Tablet 760px breakpoint ----------------- */
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+
+    h1 {
+        padding-top: 10px;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 20px;
+        border: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+
+    .menu>li {
+        padding-left: 1rem;
+    }
+
+    .menu a:hover {
+        font-weight: 950;
+        border: 1px solid black;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+}
