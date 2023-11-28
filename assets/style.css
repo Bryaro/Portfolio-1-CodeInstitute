@@ -1,3 +1,6 @@
+/* Google fonts imported */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* this star at the top style overrides default stytle that its added by the browser */
 * {
     padding: 0;
@@ -14,15 +17,21 @@ body {
     /* this helps us now to move to column(vertical) direction */
     flex-direction: column;
     color: black;
+    font-family: 'Lato', sans-serif;
 }
 
-hfont-family: 'lato', sans-serif;eader {
+/* header */
+header {
     background-color: lightsteelblue;
 }
 
+h1 {
+    /* google suggestion to use Oswald font family */
+    font-family: 'Oswald', sans-serif;
+}
+
 main {
-    background-co
-    lor: lightseagreen;
+    background-color: lightseagreen;
     /* makes the main element to take up the excess space to push down the footer */
     flex: 1 0 auto;
 }
