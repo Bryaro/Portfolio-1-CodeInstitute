@@ -20,14 +20,38 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* header */
+/* HEADER */
 header {
     background-color: lightsteelblue;
+    width: 100%;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+header>a {
+    text-decoration: none;
+    color: black;
 }
 
 h1 {
     /* google suggestion to use Oswald font family */
     font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.menu {
+    margin-bottom: 1em;
 }
 
 main {
@@ -39,3 +63,12 @@ main {
 footer {
     background-color: lightgray;
 }
+
+
+/* ----------------- MAIN ----------------- */
+main {
+    margin-top: 48px;
+}
+
+
+/* ----------------- FOOTER ----------------- */
