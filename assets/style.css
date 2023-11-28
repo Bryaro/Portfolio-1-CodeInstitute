@@ -16,12 +16,13 @@ body {
     color: black;
 }
 
-header {
+hfont-family: 'lato', sans-serif;eader {
     background-color: lightsteelblue;
 }
 
 main {
-    background-color: lightseagreen;
+    background-co
+    lor: lightseagreen;
     /* makes the main element to take up the excess space to push down the footer */
     flex: 1 0 auto;
 }
