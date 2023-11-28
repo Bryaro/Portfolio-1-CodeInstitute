@@ -27,6 +27,9 @@ header {
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 ul {
@@ -77,12 +80,30 @@ nav {
     width: 100%;
     left: 0;
     border-bottom: 2px solid black;
+    top: 100%;
+    display: none;
+}
 
+#nav-toggle:checked~nav {
+    position: absolute;
+    background-color: lightsteelblue;
+    width: 100%;
+    left: 0;
+    border-bottom: 2px solid black;
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.fas {
+    font-size: 150%;
 }
 
 /* ----------------- MAIN ----------------- */
 main {
-    margin-top: 48px;
+    margin-top: 94px;
 }
 
 
