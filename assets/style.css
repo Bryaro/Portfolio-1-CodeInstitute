@@ -35,6 +35,7 @@ ul {
 
 li a {
     text-decoration: none;
+    color: black;
 }
 
 header>a {
@@ -52,6 +53,11 @@ h1 {
 
 .menu {
     margin-bottom: 1em;
+    padding-left: 30px;
+}
+
+.menu li {
+    margin-bottom: 10px;
 }
 
 main {
@@ -64,6 +70,15 @@ footer {
     background-color: lightgray;
 }
 
+/* ----------------- NAV DROP DOWN ----------------- */
+nav {
+    position: absolute;
+    background-color: lightsteelblue;
+    width: 100%;
+    left: 0;
+    border-bottom: 2px solid black;
+
+}
 
 /* ----------------- MAIN ----------------- */
 main {
