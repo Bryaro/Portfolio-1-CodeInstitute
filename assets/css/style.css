@@ -130,10 +130,17 @@ aside {
 
 .cats div {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cats h3 {
+    margin: 20px;
+    color: white;
     text-align: center;
 }
+
 
 /* ----------------- FOOTER ----------------- */
 footer {
