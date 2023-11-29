@@ -124,6 +124,13 @@ aside {
     padding: 20px 20px;
 }
 
+aside h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+
 .cats {
     background: url(../images/kittensaudi.png) no-repeat center/cover;
 }
