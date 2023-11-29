@@ -103,6 +103,36 @@ main {
     /* makes the main element to take up the excess space to push down the footer */
     flex: 1 0 auto;
     margin-top: 47px;
+    height: auto;
+}
+
+article {
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+.hero {
+    background: url(/assets/images/kittenfather.png) no-repeat center center/cover;
+    height: 50vh;
+    width: 100%;
+}
+
+aside {
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.cats {
+    background: url(../images/kittensaudi.png) no-repeat center/cover;
+}
+
+.cats div {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
 }
 
 /* ----------------- FOOTER ----------------- */
