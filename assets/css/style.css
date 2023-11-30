@@ -137,10 +137,15 @@ aside {
 }
 
 aside h2 {
-    margin-bottom: 20px;
     text-transform: uppercase;
     text-align: center;
-    text-decoration: underline;
+    padding: 10px 0;
+}
+
+aside h3 {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .cats {
