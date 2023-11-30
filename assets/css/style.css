@@ -196,6 +196,12 @@ footer {
         margin-top: 95px;
     }
 
+    .main-text {
+        width: 60%;
+        align-self: center;
+        margin-top: 60px;
+    }
+
     h1 {
         padding-top: 10px;
     }
