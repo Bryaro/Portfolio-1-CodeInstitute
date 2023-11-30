@@ -108,6 +108,7 @@ main {
 
 article {
     background-color: darkgoldenrod;
+    display: flex;
     text-align: center;
 }
 
@@ -115,7 +116,18 @@ article {
     background: url(/assets/images/kittenfather.png) no-repeat center center/cover;
     height: 50vh;
     width: 100%;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
+
+.main-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 250px;
+}
+
 
 aside {
     background-color: cornflowerblue;
