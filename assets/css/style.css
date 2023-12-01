@@ -180,19 +180,18 @@ aside h3 {
 
 .biography-cover-text {
     text-transform: uppercase;
-    width: 60%;
+    width: 80%;
     align-self: center;
     margin-top: 30px;
 }
 
 .biography-cover-text h2 {
     padding-bottom: 20px;
+    font-size: 190%;
 }
 
-.biography-cover-text h3,
-h4 {
-    padding: 2px;
-    font-size: x-small;
+.biography-cover-text h4 {
+    font-size: 70%;
 }
 
 /* the biography div text container */
@@ -202,6 +201,7 @@ h4 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin: 20px 0;
 }
 
 /* biography paragraph text */
