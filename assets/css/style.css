@@ -169,10 +169,53 @@ aside h3 {
 
 /*      main - for BIOGRAPHY PAGE       */
 
-iframe {
-    width: 420px;
-    height: 315px;
+/* first article element in biography page containing cover and biograpåhy text  */
+#biography-container {
+    width: 100%;
+    height: fit-content;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
 }
+
+.biography-cover-text {
+    text-transform: uppercase;
+    width: 60%;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.biography-cover-text h2 {
+    padding-bottom: 20px;
+}
+
+.biography-cover-text h3,
+h4 {
+    padding: 2px;
+    font-size: x-small;
+}
+
+/* the biography div text container */
+.biography-text-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* biography paragraph text */
+.biography-text-container p {
+    width: 65%;
+    text-align: left;
+}
+
+/* container for video/media in the biography page */
+iframe {
+    width: 100%;
+    height: 200px;
+}
+
 
 /* ----------------- FOOTER ----------------- */
 footer {
