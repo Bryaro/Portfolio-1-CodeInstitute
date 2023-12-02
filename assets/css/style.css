@@ -340,6 +340,19 @@ footer {
 
 @media screen and (min-width:1024px) {
 
+    aside {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .cat-image-1 {
+        border-radius: 15px 0 0 15px;
+    }
+
+    .cat-image-2 {
+        border-radius: 0 15px 15px 0;
+    }
+
 
     /* move the aside with style above iframe when screen is 1024px or more */
     /* aside {
