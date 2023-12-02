@@ -283,7 +283,8 @@ footer {
     .main-text {
         width: 40%;
         align-self: center;
-        padding: 10px 0;
+        position: absolute;
+        margin-top: 110px;
     }
 
     h1 {
