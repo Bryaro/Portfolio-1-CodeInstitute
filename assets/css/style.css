@@ -110,6 +110,7 @@ main {
 article {
     display: flex;
     text-align: center;
+    font-size: 80%;
 }
 
 /* add of image background style to element with .hero class */
@@ -212,8 +213,9 @@ aside h3 {
 
 /* biography paragraph text */
 .biography-text-container p {
-    width: 65%;
-    text-align: left;
+    width: 80%;
+    /* found a nicer alignment on w3school. to align symetrically for aesthetic reason, just thought it looks nicer */
+    text-align: justify;
 }
 
 /* container for video/media in the biography page */
@@ -237,6 +239,12 @@ iframe {
     margin: 10px 0;
     border-radius: 3%;
 }
+
+/* add display contents so for all screens */
+.video-container {
+    display: contents;
+}
+
 
 
 /* ----------------- FOOTER ----------------- */
@@ -332,14 +340,6 @@ footer {
 
 @media screen and (min-width:1024px) {
 
-    main {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .video-container {
-        order: 2;
-    }
 
     /* move the aside with style above iframe when screen is 1024px or more */
     /* aside {
