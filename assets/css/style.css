@@ -312,4 +312,17 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
+    /* biography page for sreen 768x and more  */
+
+    article {
+        justify-content: center;
+        height: 400px;
+        width: 100%;
+    }
+
+    iframe {
+        width: 768px;
+        height: 410px;
+    }
 }
