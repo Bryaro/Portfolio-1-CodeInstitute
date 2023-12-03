@@ -128,6 +128,9 @@ article {
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 250px;
+    align-self: center;
+    /* add of style for all screens */
+    width: 300px;
 }
 
 
@@ -281,7 +284,6 @@ footer {
     }
 
     .main-text {
-        width: 40%;
         align-self: center;
         position: absolute;
         margin-top: 110px;
@@ -375,10 +377,6 @@ footer {
         border-radius: 0 15px 15px 0;
     }
 
-    iframe {
-        width: 100%;
-        height: 550px;
-    }
 
 
     /* move the aside with style above iframe when screen is 1024px or more */
@@ -424,7 +422,19 @@ footer {
         flex-direction: column;
     }
 
+    #biography-container {
+        height: 400px;
+    }
+
+    .biography-text-container {
+        width: 50%;
+        align-self: center;
+    }
+
     #cat-images {
         order: -1;
+        background: none;
+        position: absolute;
+        gap: 50%;
     }
 }
