@@ -416,4 +416,15 @@ footer {
 
 }
 
-@media screen and (min-width:1440px) {}
+/* media query for screen of 1440px and higher */
+@media screen and (min-width:1440px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cat-images {
+        order: -1;
+    }
+}
