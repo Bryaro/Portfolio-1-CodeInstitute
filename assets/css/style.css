@@ -346,8 +346,19 @@ footer {
 @media screen and (min-width:1024px) {
 
     aside {
-        flex-direction: row;
         gap: 20px;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .cats {
+        display: flex;
+    }
+
+    .cats div {
+        flex: 1;
     }
 
     .cat-image-1 {
