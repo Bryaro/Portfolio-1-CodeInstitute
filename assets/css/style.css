@@ -339,7 +339,7 @@ footer {
         height: 410px;
     }
 
-    aside {
+    #cat-images {
         display: flex;
         flex-direction: row;
         gap: 20px;
@@ -382,6 +382,7 @@ footer {
 
 
     /* move the aside with style above iframe when screen is 1024px or more */
+    /* I commented out these styles since I wanted to keep the style simple to understand but decided to leave it incase I could need it in future */
     /* aside {
         position: absolute;
         top: 200px;
@@ -414,3 +415,5 @@ footer {
     } */
 
 }
+
+@media screen and (min-width:1440px) {}
