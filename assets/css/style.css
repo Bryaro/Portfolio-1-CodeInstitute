@@ -338,6 +338,12 @@ footer {
         width: 768px;
         height: 410px;
     }
+
+    aside {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
 }
 
 
