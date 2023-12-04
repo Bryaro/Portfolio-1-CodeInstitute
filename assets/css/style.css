@@ -121,16 +121,15 @@ article {
     text-transform: uppercase;
     color: white;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 .main-text {
     background-color: rgba(0, 0, 0, 0.7);
-    position: relative;
-    top: 250px;
-    align-self: center;
     /* add of style for all screens */
     width: 300px;
+    height: fit-content;
+    align-self: end;
 }
 
 
@@ -253,6 +252,21 @@ iframe {
 }
 
 
+/* main for CONTACT page */
+
+#contact-container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background: bisque;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    justify-content: center;
+}
 
 /* ----------------- FOOTER ----------------- */
 footer {
@@ -283,11 +297,6 @@ footer {
         margin-top: 95px;
     }
 
-    .main-text {
-        align-self: center;
-        position: absolute;
-        margin-top: 110px;
-    }
 
     h1 {
         padding-top: 10px;
@@ -357,9 +366,6 @@ footer {
         gap: 20px;
     }
 
-    .hero {
-        position: relative;
-    }
 
     .benefit-of-cats {
         display: flex;
