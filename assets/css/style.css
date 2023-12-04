@@ -158,11 +158,11 @@ aside h3 {
     padding: 10px 0;
 }
 
-.cats {
+.benefit-of-cats {
     background: url(../images/kittensaudi.png) no-repeat center center/cover;
 }
 
-.cats div {
+.benefit-of-cats div {
     color: white;
     padding: 20px;
     text-align: left;
@@ -170,7 +170,7 @@ aside h3 {
     margin: 10px 0;
 }
 
-.cats h3 {
+.benefit-of-cats h3 {
     margin: 20px;
     color: white;
     text-align: center;
@@ -361,11 +361,11 @@ footer {
         position: relative;
     }
 
-    .cats {
+    .benefit-of-cats {
         display: flex;
     }
 
-    .cats div {
+    .benefit-of-cats div {
         flex: 1;
     }
 
@@ -436,5 +436,10 @@ footer {
         background: none;
         position: absolute;
         gap: 50%;
+    }
+
+    iframe {
+        width: 1440px;
+        height: 700px;
     }
 }
