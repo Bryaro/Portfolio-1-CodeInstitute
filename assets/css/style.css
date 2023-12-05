@@ -281,6 +281,14 @@ button {
 #thank-you-page {
     background-color: beige;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 150%;
+    gap: 20px;
+    letter-spacing: 2px;
 }
 
 
