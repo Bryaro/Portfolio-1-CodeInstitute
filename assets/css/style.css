@@ -276,6 +276,13 @@ button {
     margin-top: 20px;
 }
 
+/* main page - thankyou.html page */
+
+#thank-you-page {
+    background-color: beige;
+    color: black;
+}
+
 
 /* ----------------- FOOTER ----------------- */
 footer {
