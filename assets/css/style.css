@@ -251,6 +251,9 @@ iframe {
     display: contents;
 }
 
+.hidden-heading {
+    display: none;
+}
 
 /* main for CONTACT page */
 
