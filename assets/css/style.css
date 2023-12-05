@@ -221,9 +221,8 @@ aside h3 {
 }
 
 /* container for video/media in the biography page */
-iframe {
+video {
     width: 100%;
-    height: 200px;
 }
 
 .cat-image-1 {
