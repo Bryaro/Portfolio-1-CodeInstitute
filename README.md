@@ -123,8 +123,10 @@ Repeat for each feature
 Feedback page, request to database after user submiting contact form. add of authentic hadith: a collection of traditions containing sayings of the prophet Muhammad which, with accounts of his daily practice (the Sunna), constitute the major source of guidance for Muslims apart from the Koran.
 
 ## Testing
-#### Validator testing
-- **HTML:** Result was green with **No Errors** Errors but void elements. used [W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2F)
+#### Validator testing for HTML
+ - **homepage:** Result was green with **No Errors** Errors but void elements. used [W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2F)
+
+#### Validator testing for CSS
 - **CSS:**
 Result was green with **No Errors** but warning about imported google fonts [W3C css validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
