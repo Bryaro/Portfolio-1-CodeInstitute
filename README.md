@@ -90,6 +90,19 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 
 ## Deployment
 
+### My webstie was deployed using GitHub pages
+**The steps in short and simplay ways are:**
+
+*1. GitHub Repository > nagivate to Settings tab upper right*
+
+*2.In source section> dropdown>Master Branch*
+
+*3.Click on save*
+
+*4.usually after 2 minutes the website is published*
+
+---
+
 on GitHub Pages, configure the branch in repository settings.
 Commit and Push Changes:
 
@@ -106,12 +119,15 @@ For this website: https://bryaro.github.io/Portfolio-1-CodeInstitute/
 ### Deployment
 - **GitHub Actions:** Continuous integration and deployment are set up using GitHub Actions to automate the deployment process when changes are pushed to the main branch.
 
-### Other Techniques
+---
+
+### Other Techniques used for this project
 - **Responsive Design:** The website is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.
 - **SEO Optimization:** Meta tags and other SEO best practices are implemented to enhance the website's visibility on search engines.
 - **Accessibility:** Accessibility features are incorporated to ensure a more inclusive user experience for all visitors.
 
 ## Testing
+
 #### Validator testing for HTML
  - **Home page:** Result was green with **No Errors** Errors but void elements. used [Home page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Findex.html)
 - **Biography page:** Result was green with **No Errors** Errors but void elements. used [Biography page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fbiography.html)
@@ -148,6 +164,10 @@ Unfortunately, screenshots were not captured for the HTML validator, but there w
 - Header: had extra ending of an anchor
 - incorrect pathway to images since when deployed the pathway is not as on the computer. had to add ../ to images and media in order for the github pages to find the source of assets.
 
+## Bugs
+- After deplying the project oo GitHub pages i noticed the website wasnt quite working, the texts were there but the css and the assets were not showing
+
+- I opened the google devtools and played with the file path and found put the issue. By removing the starting slash part of the file it solved the issue.
 
 ## Codeanywhere and GitPod forking repository
 
