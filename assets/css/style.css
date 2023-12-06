@@ -253,6 +253,12 @@ video {
     background: bisque;
 }
 
+#contact-container h2 {
+    margin-bottom: 30px;
+}
+
+
+
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -268,12 +274,21 @@ input {
     height: 25px;
     border: 2px solid lightblue;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
+#message-container {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+}
 
 button {
     background-color: lightskyblue;
     margin-top: 20px;
+}
+
+button:hover {
+    background-color:dodgerblue;
 }
 
 /* main page - thankyou.html page */
