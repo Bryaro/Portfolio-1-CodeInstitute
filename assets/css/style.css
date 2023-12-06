@@ -161,6 +161,7 @@ section h3 {
     text-align: left;
     background-color: rgba(0, 0, 0, 0.6);
     margin: 10px 0;
+    font-size: small;
 }
 
 .benefit-of-cats h3 {
@@ -211,7 +212,7 @@ section h3 {
     width: 80%;
     /* found a nicer alignment on w3school. to align symetrically for aesthetic reason, just thought it looks nicer */
     text-align: justify;
-    font-size: x-small;
+    font-size: small;
 }
 
 /* container for video/media in the biography page */
@@ -428,6 +429,7 @@ footer {
 
     .benefit-of-cats div {
         flex: 1;
+        font-size: large;
     }
 
     .biography-text-container p {
@@ -453,6 +455,10 @@ footer {
     main {
         display: flex;
         flex-direction: column;
+    }
+
+    .benefit-of-cats div {
+        font-size: x-large;
     }
 
     .biography-text-container {
