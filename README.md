@@ -6,7 +6,7 @@ Welcome to [The Kitten Father website ](https://bryaro.github.io/Portfolio-1-Cod
 ![image of site](/assets/documentations/AmiResponsive.png) Here is a screenshot taken from AmiResponisve website to have a overview and see the site responsive
 
 ## Introduction
-Welcome to the Kitten Father aka Abu Hurairah Website! 🌟
+Welcome to the Kitten Father aka Abu Hurairah Website!🌟
 
 This site is to explore the life, teachings, and profound wisdom of Abu Hurairah, a key companion of Prophet Muhammad (PBUH). This website is a curated tribute, offering a glimpse into the rich legacy and contributions of Abu Hurairah to Islamic tradition. Whether you're a scholar seeking in-depth knowledge or a curious learner eager to discover, my platform provides a comprehensive resource on the remarkable journey of Abu Hurairah. Join me on this enlightening exploration!
 
@@ -90,7 +90,7 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 ## Deployment
 
 ### My website was deployed using GitHub pages
-**The steps in short and simplay ways are:**
+**The steps in short and simple ways are:**
 
 *1. GitHub Repository > nagivate to Settings tab upper right*
 
@@ -125,6 +125,7 @@ For this website: https://bryaro.github.io/Portfolio-1-CodeInstitute/
 - **Responsive Design:** The website is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.
 - **SEO Optimization:** Meta tags and other SEO best practices are implemented to enhance the website's visibility on search engines.
 - **Accessibility:** Accessibility features are incorporated to ensure a more inclusive user experience for all visitors.
+
 
 ## Testing
 
@@ -228,6 +229,9 @@ Video on biography:
 
 [Youtuber link](https://www.youtube.com/@muftimenkofficial) : Credit for this youtuber as well that was used for the social networ on the footer
 
+---
+### Other documentations/screenshots
+If you are curious and want to explore my GitHub screenshots for this project, feel free to open it [here](https://github.com/Bryaro/Portfolio-1-CodeInstitute/tree/main/assets/documentations).
 
 ## Getting Started
 
@@ -239,8 +243,3 @@ To view the website, simply click [here](https://bryaro.github.io/Portfolio-1-Co
 Feel free to explore the different sections of the website and check out my projects. If you have any questions or feedback, don't hesitate to [contact me](https://bryaro.github.io/Portfolio-1-CodeInstitute/contact.html).
 
 Click [here](#kitten-father) to return to the top of the readme.
-
-
-
-
-[def]: /assets/documentations/biographypage.png
