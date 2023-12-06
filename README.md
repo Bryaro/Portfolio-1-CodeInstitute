@@ -1,9 +1,9 @@
 Readme Layout
 
 # Kitten Father
-Welcome to [The Kitten Father ](https://bryaro.github.io/Portfolio-1-CodeInstitute/)
+Welcome to [The Kitten Father website ](https://bryaro.github.io/Portfolio-1-CodeInstitute/)
 
-![image of site](/assets/documentations/Amirespnsivekittenfather.png) Here is a screenshot taken from AmiResponisve website to have a overview and see the site responsive
+![image of site](/assets/documentations/AmiResponsive.png) Here is a screenshot taken from AmiResponisve website to have a overview and see the site responsive
 
 ## Introduction
 Welcome to the Kitten Father aka Abu Hurairah Website! 🌟
@@ -21,11 +21,14 @@ The navigation bar is on all three pages. It has links to the Logo, Home page, B
 
 - **Home:**
 The landing page with image/photgraph and overlay text
+![](/assets/documentations/Landingpage.png)
 - **Biography:**
 This page is the biography of the kitten father aka abu hurairah. 
 This page will have 2 pictures and a video. The video is set to mute and paused, allowing the user to click play and unmute it for a better experience. This way, the user can read the biography first and then choose to listen and watch the video, reducing unnecessary clicks for the user.
+![](/assets/documentations/biographypage.png)
 - **Contact:**
 This page is centered around a contact form. It requires the user to provide their name, surname, email, and information in a textarea. After completing the form, the user will be directed to a concealed "thank you" page.
+![](/assets/documentations/contactpage.png)
 
 - **Thankyou:** [click here to view](https://bryaro.github.io/Portfolio-1-CodeInstitute/thankyou.html)
 This approach is due to the usage of only HTML5 and CSS3 without involving other languages like JavaScript to handle request. But if javascript was involved then this would been sendig a request after send message submit clicked by the user.
@@ -47,23 +50,31 @@ The thankyou.html is only to redirect the user to a get request to later use it 
 |     1| HTML5       |
 |     2| CSS3        |
 |     3| Markdown(for readme)   |
-
-1. [Introduction](https://bryaro.github.io/Portfolio-1-CodeInstitute/)
-   - Welcome
-   - About Abu Hurairah
-   - Purpose of the Website
-
-2. [Biography](https://bryaro.github.io/Portfolio-1-CodeInstitute/biography)
-   - Early Life
-   - Embracing Islam
-   - Companion of Prophet Muhammad (PBUH)
-   - Notable Events
-
-3. [Contact](https://bryaro.github.io/Portfolio-1-CodeInstitute/contact)
-   - Get in Touch
-   - Social Media
-
 ## Technologies Used
+
+### Colour Scheme: [Color Picker w3schools](https://www.w3schools.com/colors/colors_picker.asp)
+
+Wireframe with basic design for this project:
+
+Mobile ![](/assets/documentations/mobileBalsamiq.png)
+
+Desktop home ![](/assets/documentations/BalsamiqHomepage.png) 
+
+Desktop Biography ![](/assets/documentations/balsamiqbiography.png)
+
+Desktop Contact ![](/assets/documentations/balsamiqContact.png) 
+
+### Imagery: 
+
+Canva examples 1![example](/assets/documentations/canvaexample2.png) 
+
+Canva example 2![example](/assets/documentations/canvaexample1.png)
+
+Canva example 3![example](/assets/documentations/canvaexample3.png) 
+
+### Markdown syntax for this readme file: [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
 
 ### Frontend
 - **HTML5:** The structure of the web pages is created using HTML5 for semantic markup.
@@ -77,83 +88,60 @@ The thankyou.html is only to redirect the user to a get request to later use it 
 - **Git:** Version control is managed using Git, allowing for collaboration and tracking changes throughout the development process.
 - **GitHub Pages:** The website is hosted on GitHub Pages, providing a convenient way to showcase the project.
 
+## Deployment
+
+on GitHub Pages, configure the branch in repository settings.
+Commit and Push Changes:
+
+Ensure your changes are committed and pushed to the repository.
+Wait for Deployment:
+
+Depending on the platform, wait for the deployment to finish.
+Access Deployed Site:
+
+Once done, your site should be accessible using the provided URL.
+For this website: https://bryaro.github.io/Portfolio-1-CodeInstitute/
+
+
 ### Deployment
 - **GitHub Actions:** Continuous integration and deployment are set up using GitHub Actions to automate the deployment process when changes are pushed to the main branch.
 
 ### Other Techniques
 - **Responsive Design:** The website is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.
 - **SEO Optimization:** Meta tags and other SEO best practices are implemented to enhance the website's visibility on search engines.
-- **Accessibility:** Accessibility features are incorporated to ensure a more inclusive user experience for all visitors. ![lighthouse](/assets/documentations/lighthousekittenfather2.png)
-
-## Getting Started
-
-To view the website, simply click [here](https://bryaro.github.io/Portfolio-1-CodeInstitute/). If you want to run the project locally, follow the steps below:
-
-1. Clone the repository: `git clone https://github.com/bryaro/Portfolio-1-CodeInstitute.git`
-2. Open the `index.html` file in your preferred web browser.
-
-Feel free to explore the different sections of the website and check out my projects. If you have any questions or feedback, don't hesitate to [contact me](https://bryaro.github.io/Portfolio-1-CodeInstitute/contact.html).
-
-
-
-
-<!-- mentors -->
-## User Experience
-### User Stories
-- User Goals
-- Site Owner Goals
-
-## Design and technologies Used
-### Colour Scheme: [Color Picker w3schools](https://www.w3schools.com/colors/colors_picker.asp)
-### Imagery: [Canva pro website](https://www.canva.com/)
-### Wireframe: [Balsamiq website](https://balsamiq.com/wireframes/)
-### Markdown syntax for this readme file: [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
-
-## Features
-
-### Feature title - e.g. Navigation
-Screenshot of implemented feature
-Description of the value this feature has for the users
-
-Repeat for each feature
-
-## Features to be Added
-Feedback page, request to database after user submiting contact form. add of authentic hadith: a collection of traditions containing sayings of the prophet Muhammad which, with accounts of his daily practice (the Sunna), constitute the major source of guidance for Muslims apart from the Koran.
+- **Accessibility:** Accessibility features are incorporated to ensure a more inclusive user experience for all visitors.
 
 ## Testing
 #### Validator testing for HTML
  - **Home page:** Result was green with **No Errors** Errors but void elements. used [Home page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Findex.html)
 - **Biography page:** Result was green with **No Errors** Errors but void elements. used [Biography page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fbiography.html)
 - **Contact page:** Result was green with **No Errors** Errors but void elements. used [Contact page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fcontact.html)
-- **Thank you page:** Result was green with **No Errors** Errors but void elements. used [Thank you page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fcontact.html)
+- **Thank you page:** Result was green with **No Errors** Errors but void elements. used [Thank you page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fthankyou.html)
 
 #### Validator testing for CSS
 - **CSS:**
 Result was green with **No Errors** but warning about imported google fonts [W3C css validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Lighthouse
-![](/assets/documentations/lighthousekittenfather.png)
-![](/assets/documentations/lighthousekittenfather2.png)
-![](/assets/documentations/)
-I've concentrated primarily on accessibility while also giving due attention to best practices, SEO, and performance.
+![lighthouse](/assets/documentations/MobileLH.png)
+![lighthouse](/assets/documentations/desktopLH.png)
+
 
 ### Wave Webaim - accessibility testing
 I've used toggle isntead of javascript and it doesnt give error here because I've added aria-label to the input and the label. but it should give two errors if the aria-label removed. this is because I am using only html and css for respoinsive deisgn.
-![wave webiam screenshot](/assets/documentations/Screenshot%202023-12-05%20at%2017.13.12.png)
+![Webwave test screenshot](/assets/documentations/Webwave.png)
 
 ### Manual Testing
-Starting with the home page by firstly checking the resolution and the responsivness with as many devices I have had at home for each page. Test the nav bar button, when clicked menu of nav bar is showen. Each nav page is clickable. Cliking the nav bar favicon the navbar moves back and only the favicon is shown so that the user can easy click on it. The same test on the nav bar was repeated on each apge on different devices and works amazingly!
+Starting with the home page by intially checking all the resolution and the responsivness on as many devices as possible that I have had at home for each page. Testing the nav bar button, when clicked menu of nav bar is showen by dropdown. Each nav page withing the dropdown visible and clickable. Cliking the nav bar favicon the navbar moves back and only the favicon is shown so that the user can easy click on it. The same test on the nav bar was repeated on each apge on different devices and works amazingly! The dropdown menu tested, click on homepage takes us to home page, click on biography takes us to biography page, click on contact taking us to the contact form. 
 
 The contact form filed and the requirement for the input tested and works great for the input of email as well for the textarea. When the send message button clicked the submission is opening the tahnkyou page. I didnt want to use target="_blank" in the thank you page but if the case and  purpose was to redirect the user to a new tab, then we would have add target="_blank" to the element, however so we se the following:
-![thank you page](/assets/documentations/thankyoupageScreenshot.png)
-the click "here" as shown on the page will redirect the user back to home page.
+see thank you page [here](/assets/documentations/thankyoupageScreenshot.png)
+inside the page when click "here" as shown on the thank you page will redirect the user back to the home page. All tests was done for every section of every page.
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| HTML5 | No Error| Yes | 3 Errors | No Error |
-| CSS | No Error| Yes | No Error | No Error |
+| HTML5 | No Error| Yes | No Error | Pass |
+| CSS | No Error| Yes | No Error | Pass |
 
 Unfortunately, screenshots were not captured for the HTML validator, but there were three identified errors, namely: 
 - Footer: n the footer the list < li > had all the following < l > missing the i before ending of the element. 
@@ -209,36 +197,23 @@ To be able for viewing it locally on the port view we need to type the following
 ---
 > python3 -m http.server
 
-## Deployment
-Deploying the Site:
-Using Codeanywhere IDE or Gitpod IDE:
-Choose Hosting Platform:
-
-Decide where you want to deploy the site, like GitHub Pages, Netlify, etc.
-Follow Platform-Specific Instructions:
-
-For GitHub Pages, configure the branch in repository settings.
-Commit and Push Changes:
-
-Ensure your changes are committed and pushed to the repository.
-Wait for Deployment:
-
-Depending on the platform, wait for the deployment to finish.
-Access Deployed Site:
-
-Once done, your site should be accessible using the provided URL.
-For this website: https://bryaro.github.io/Portfolio-1-CodeInstitute/
-![github pages for this website](/assets/documentations/Screenshot%202023-12-05%20at%2017.57.21.png)
-
-
 ## Credits
 
-You need to credit where you got anything for your site from.. where are the images from, are they all from the same site? where did you get the content from, if you wrote it yourself, did you fact check anywhere? did you get code from anywhere? if so, it needs to be clearly marked in both the code and the readme.
+Video on biography:
 
+[Youtuber link](https://www.youtube.com/@VeiledFaith)
+
+[Video link](https://www.youtube.com/watch?v=2QjpYRX2LCg&t=2s&ab_channel=VeiledFaith)
+
+## Getting Started
+
+To view the website, simply click [here](https://bryaro.github.io/Portfolio-1-CodeInstitute/). If you want to run the project locally, follow the steps below:
+
+1. Clone the repository: `git clone https://github.com/bryaro/Portfolio-1-CodeInstitute.git`
+2. Open the `index.html` file in your preferred web browser.
+
+Feel free to explore the different sections of the website and check out my projects. If you have any questions or feedback, don't hesitate to [contact me](https://bryaro.github.io/Portfolio-1-CodeInstitute/contact.html).
 
 Click [here](#kitten-father) to return to the top of the readme.
 
-<!-- BRYAR start -->
-<!-- video credit to youtuber: https://www.youtube.com/@VeiledFaith -->
-<!-- BRYAR ebd -->
 
