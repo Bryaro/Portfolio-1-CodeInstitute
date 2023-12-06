@@ -165,7 +165,7 @@ Unfortunately, screenshots were not captured for the HTML validator, but there w
 - incorrect pathway to images since when deployed the pathway is not as on the computer. had to add ../ to images and media in order for the github pages to find the source of assets.
 
 ## Bugs
-- After deplying the project on GitHub pages i noticed the website wasnt quite working, the texts were there but the css and the assets were not showing
+- After deplying the project on GitHub pages I noticed the website wasnt quite working, the texts were there but the css and the assets were not showing
 
 - I opened the google devtools and played with the file path and found put the issue. By removing the starting slash part of the file it solved the issue.
 
