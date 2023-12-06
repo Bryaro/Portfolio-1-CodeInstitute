@@ -379,6 +379,10 @@ footer {
         margin: 0 0.5rem;
     }
 
+    .benefit-of-cats {
+        background: url(../images/kittensaudiwide.webp) no-repeat center center/cover;
+    }
+
     /* biography page for sreen 768x and more  */
 
     .hero {
