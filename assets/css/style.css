@@ -104,7 +104,7 @@ main {
 
 /* add of image background style to element with .hero class */
 .hero {
-    background: url(../images/kittenfather.webp) no-repeat center center/cover;
+    background: url(../images/kittenfather3.webp) no-repeat center center/cover;
     height: 50vh;
     width: 100%;
     text-transform: uppercase;
@@ -150,10 +150,13 @@ section h3 {
 
 .benefit-of-cats {
     background: url(../images/kittensaudi.webp) no-repeat center center/cover;
+    color: white;
+    font-size: x-small;
+    background-position: center left 40%;
+    display: grid;
 }
 
 .benefit-of-cats div {
-    color: white;
     padding: 20px;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.6);
@@ -162,7 +165,6 @@ section h3 {
 
 .benefit-of-cats h3 {
     margin: 20px;
-    color: white;
     text-align: center;
 }
 
@@ -380,6 +382,7 @@ footer {
     /* biography page for sreen 768x and more  */
 
     .hero {
+        background: url(../images/kittenfather.webp) no-repeat center center/cover;
         justify-content: center;
         height: 400px;
         width: 100%;
@@ -415,7 +418,8 @@ footer {
     }
 
     .benefit-of-cats {
-        display: flex;
+        grid-template-columns: 40% 40%;
+        justify-content: space-around;
     }
 
     .benefit-of-cats div {
