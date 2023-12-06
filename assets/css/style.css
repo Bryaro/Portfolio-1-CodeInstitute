@@ -32,11 +32,9 @@ header {
     align-items: baseline;
 }
 
-
 ul {
     list-style-type: none;
 }
-
 
 li a {
     text-decoration: none;
@@ -66,6 +64,7 @@ h1 {
 }
 
 /* ----------------- NAV DROP DOWN ----------------- */
+
 nav {
     position: absolute;
     background-color: lightsteelblue;
@@ -85,7 +84,6 @@ nav {
     display: block;
 }
 
-
 #nav-toggle {
     display: none;
 }
@@ -93,8 +91,6 @@ nav {
 .fas {
     font-size: 150%;
 }
-
-
 
 /* ----------------- MAIN ----------------- */
 
@@ -106,13 +102,6 @@ main {
     height: auto;
 }
 
-/* centering article elements*/
-article {
-    display: flex;
-    text-align: center;
-    font-size: 80%;
-}
-
 /* add of image background style to element with .hero class */
 .hero {
     background: url(../images/kittenfather.webp) no-repeat center center/cover;
@@ -122,6 +111,9 @@ article {
     color: white;
     display: flex;
     justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 80%;
 }
 
 .main-text {
@@ -132,8 +124,7 @@ article {
     align-self: end;
 }
 
-
-aside {
+section {
     background-color: cornflowerblue;
     width: 100%;
     height: fit-content;
@@ -145,13 +136,13 @@ aside {
     align-items: center;
 }
 
-aside h2 {
+section h2 {
     text-transform: uppercase;
     text-align: center;
     padding: 10px 0;
 }
 
-aside h3 {
+section h3 {
     text-transform: capitalize;
     text-align: center;
     padding: 10px 0;
@@ -174,7 +165,6 @@ aside h3 {
     color: white;
     text-align: center;
 }
-
 
 /*      main - for BIOGRAPHY PAGE       */
 
@@ -274,7 +264,15 @@ video {
     font-size: 120%;
 }
 
+input {
+    height: 25px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+}
+
+
 button {
+    background-color: lightskyblue;
     margin-top: 20px;
 }
 
@@ -290,9 +288,8 @@ button {
     height: 100vh;
     gap: 20px;
     letter-spacing: 2px;
-    padding: 30px;
+    padding: 30px; 
 }
-
 
 /* ----------------- FOOTER ----------------- */
 footer {
@@ -312,18 +309,14 @@ footer {
     color: black;
 }
 
-
-
-
 /* ----------------- Tablet 768px breakpoint ----------------- */
 
 @media screen and (min-width: 768px) {
 
-    /* Header */
+    /* Main for 768*/
     main {
         margin-top: 95px;
     }
-
 
     h1 {
         padding-top: 10px;
@@ -366,7 +359,7 @@ footer {
 
     /* biography page for sreen 768x and more  */
 
-    article {
+    .hero {
         justify-content: center;
         height: 400px;
         width: 100%;
@@ -389,15 +382,13 @@ footer {
     }
 }
 
-
 /* media query screen of 1024px and more */
 
 @media screen and (min-width:1024px) {
 
-    aside {
+    section {
         gap: 20px;
     }
-
 
     .benefit-of-cats {
         display: flex;
@@ -414,41 +405,6 @@ footer {
     .cat-image-2 {
         border-radius: 0 15px 15px 0;
     }
-
-
-
-    /* move the aside with style above iframe when screen is 1024px or more */
-    /* I commented out these styles since I wanted to keep the style simple to understand but decided to leave it incase I could need it in future */
-    /* aside {
-        position: absolute;
-        top: 200px;
-        display: flex;
-        flex-direction: row;
-        gap: 400px;
-        background: none;
-    }
-
-    .cat-image-1,
-    .cat-image-2 {
-        width: 450px;
-    }
-
-    .biography-cover-text {
-        height: 450px;
-        width: 60%;
-        align-self: center;
-    }
-
-    .biography-text-container {
-        height: 450px;
-        width: 60%;
-        align-self: center;
-    }
-
-    .biography-text-container p {
-        align-self: center;
-        width: 50%;
-    } */
 
     #contact-form {
         width: 40%;

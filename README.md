@@ -126,7 +126,7 @@ Feedback page, request to database after user submiting contact form. add of aut
 #### Validator testing
 - **HTML:** Result was green with **No Errors** Errors but void elements. used [W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2F)
 - **CSS:**
-Result was green with **No Errors** but warning about imported google fonts [W3C css validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+Result was green with **No Errors** but warning about imported google fonts [W3C css validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Lighthouse
 ![](/assets/documentations/lighthousekittenfather.png)
@@ -139,14 +139,9 @@ I've used toggle isntead of javascript and it doesnt give error here because I'v
 
 ### Manual Testing
 
-You need to perform, and document everything you did to manually test your site.
-Done check every link on every page works as intended.
-Check of every link in the nav bar (done it on every single page). 
-Test of the responsiveness done of the site - used the dev tools in responsive mode.
-As well as load of the site once deployed on as many devices I had  access to to see the responsivness. I noticed that majority standards may not be as it is on the devtools by google chrome if being to very precise. 
 
 
-To write up the tests you can use a table,
+
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | HTML5 | No Error| Yes | 3 Errors | No Error |
@@ -158,7 +153,7 @@ Unfortunately, screenshots were not captured for the HTML validator, but there w
 - incorrect pathway to images since when deployed the pathway is not as on the computer. had to add ../ to images and media in order for the github pages to find the source of assets.
 
 
-## Deployment
+## Codeanywhere and GitPod forking repository
 
 I used Cloud based IDE, codeanywhere half of the project, but it seemed to be very slow and was keep lagging and so did a bit research on google and slack team. Some recomended me to use gitpod. Tried it and it instantly changed the speed of my deplyment process.
 Cloning the Repository using cloud based IDE Codeanywehre or Gitpod.
@@ -206,6 +201,7 @@ To be able for viewing it locally on the port view we need to type the following
 ---
 > python3 -m http.server
 
+## Deployment
 Deploying the Site:
 Using Codeanywhere IDE or Gitpod IDE:
 Choose Hosting Platform:
@@ -231,51 +227,10 @@ For this website: https://bryaro.github.io/Portfolio-1-CodeInstitute/
 
 You need to credit where you got anything for your site from.. where are the images from, are they all from the same site? where did you get the content from, if you wrote it yourself, did you fact check anywhere? did you get code from anywhere? if so, it needs to be clearly marked in both the code and the readme.
 
-## Acknowledgements
-Any special acknowledgements you'd like to leave
 
-Back to top link to return to the top of the readme.
+Click [here](#kitten-father) to return to the top of the readme.
 
-Welcome,
 <!-- BRYAR start -->
 <!-- video credit to youtuber: https://www.youtube.com/@VeiledFaith -->
 <!-- BRYAR ebd -->
 
-<!-- bryar general test for the readme before sumbitting  -->
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
-
-<!-- bryar general test for the readme before sumbitting  -->
