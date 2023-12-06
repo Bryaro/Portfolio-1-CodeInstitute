@@ -95,7 +95,7 @@ nav {
 /* ----------------- MAIN ----------------- */
 
 main {
-    background-color: rgb(123, 125, 125);
+    background-color:cornflowerblue;
     /* makes the main element to take up the excess space to push down the footer */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -179,9 +179,11 @@ section h3 {
 
 .biography-cover-text {
     text-transform: uppercase;
-    width: 80%;
     align-self: center;
     margin-top: 30px;
+    width: auto;
+    text-align: center;
+
 }
 
 .biography-cover-text h2 {
@@ -199,7 +201,6 @@ section h3 {
     height: auto;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
     margin: 20px 0;
 }
 
@@ -208,6 +209,7 @@ section h3 {
     width: 80%;
     /* found a nicer alignment on w3school. to align symetrically for aesthetic reason, just thought it looks nicer */
     text-align: justify;
+    font-size: x-small;
 }
 
 /* container for video/media in the biography page */
@@ -285,10 +287,13 @@ input {
 button {
     background-color: lightskyblue;
     margin-top: 20px;
+    border-radius: 5px;
+    height: 30px;
 }
 
 button:hover {
     background-color:dodgerblue;
+    font-weight: bold;
 }
 
 /* main page - thankyou.html page */
@@ -380,20 +385,24 @@ footer {
         width: 100%;
     }
 
-    iframe {
-        width: 768px;
-        height: 410px;
+    .biography-text-container p {
+        font-size: small;
+    }
+
+    video {
+        padding:30px;
     }
 
     #cat-images {
         display: flex;
         flex-direction: row;
         gap: 20px;
+        padding: 0px 30px 30px;
     }
 
     /* contact page for screen over 768px and more */
     #contact-form {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -411,6 +420,10 @@ footer {
 
     .benefit-of-cats div {
         flex: 1;
+    }
+
+    .biography-text-container p {
+        font-size: medium;
     }
 
     .cat-image-1 {
@@ -434,13 +447,13 @@ footer {
         flex-direction: column;
     }
 
-    #biography-container {
-        height: 400px;
-    }
-
     .biography-text-container {
         width: 50%;
         align-self: center;
+    }
+
+    .biography-text-container p {
+        font-size: large;
     }
 
     #cat-images {
