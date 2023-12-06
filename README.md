@@ -12,7 +12,7 @@ This site is to explore the life, teachings, and profound wisdom of Abu Hurairah
 
 
 ## Features
-The website have 3 pages, Home, Biography and Contact(which will be redirect by get method to another link(which for the moment used hidden page called tahnkyou.html) since I made this project only with HTML5 and CSS3 as shown on the tables below)
+"The website has three pages: Home, Biography, and Contact. These pages are redirected using the GET method to another link, which, for the moment, utilizes a hidden page called 'thankyou.html.' I developed this project solely with HTML5 and CSS3, as illustrated in the tables below."
 
 
 - **Navigation Bar:** 
@@ -50,9 +50,8 @@ The thankyou.html is only to redirect the user to a get request to later use it 
 |     1| HTML5       |
 |     2| CSS3        |
 |     3| Markdown(for readme)   |
-## Technologies Used
 
-### Colour Scheme: [Color Picker w3schools](https://www.w3schools.com/colors/colors_picker.asp)
+## Technologies Used
 
 Wireframe with basic design for this project:
 
@@ -90,7 +89,7 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 
 ## Deployment
 
-### My webstie was deployed using GitHub pages
+### My website was deployed using GitHub pages
 **The steps in short and simplay ways are:**
 
 *1. GitHub Repository > nagivate to Settings tab upper right*
@@ -106,13 +105,14 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 on GitHub Pages, configure the branch in repository settings.
 Commit and Push Changes:
 
+
 Ensure your changes are committed and pushed to the repository.
 Wait for Deployment:
 
 Depending on the platform, wait for the deployment to finish.
 Access Deployed Site:
 
-Once done, your site should be accessible using the provided URL.
+Once done, the site would be accessible using the provided URL.
 For this website: https://bryaro.github.io/Portfolio-1-CodeInstitute/
 
 
@@ -221,9 +221,13 @@ To be able for viewing it locally on the port view we need to type the following
 
 Video on biography:
 
-[Youtuber link](https://www.youtube.com/@VeiledFaith)
+[Youtuber link](https://www.youtube.com/@VeiledFaith) The youtubers channel
 
-[Video link](https://www.youtube.com/watch?v=2QjpYRX2LCg&t=2s&ab_channel=VeiledFaith)
+[Video link](https://www.youtube.com/watch?v=2QjpYRX2LCg&t=2s&ab_channel=VeiledFaith) : This one is used for the Biography page
+
+
+[Youtuber link](https://www.youtube.com/@muftimenkofficial) : Credit for this youtuber as well that was used for the social networ on the footer
+
 
 ## Getting Started
 
