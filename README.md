@@ -124,7 +124,10 @@ Feedback page, request to database after user submiting contact form. add of aut
 
 ## Testing
 #### Validator testing for HTML
- - **homepage:** Result was green with **No Errors** Errors but void elements. used [W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2F)
+ - **Home page:** Result was green with **No Errors** Errors but void elements. used [Home page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Findex.html)
+- **Biography page:** Result was green with **No Errors** Errors but void elements. used [Biography page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fbiography.html)
+- **Contact page:** Result was green with **No Errors** Errors but void elements. used [Contact page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fcontact.html)
+- **Thank you page:** Result was green with **No Errors** Errors but void elements. used [Thank you page W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryaro.github.io%2FPortfolio-1-CodeInstitute%2Fcontact.html)
 
 #### Validator testing for CSS
 - **CSS:**
@@ -133,6 +136,7 @@ Result was green with **No Errors** but warning about imported google fonts [W3C
 ### Lighthouse
 ![](/assets/documentations/lighthousekittenfather.png)
 ![](/assets/documentations/lighthousekittenfather2.png)
+![](/assets/documentations/)
 I've concentrated primarily on accessibility while also giving due attention to best practices, SEO, and performance.
 
 ### Wave Webaim - accessibility testing
@@ -140,9 +144,11 @@ I've used toggle isntead of javascript and it doesnt give error here because I'v
 ![wave webiam screenshot](/assets/documentations/Screenshot%202023-12-05%20at%2017.13.12.png)
 
 ### Manual Testing
+Starting with the home page by firstly checking the resolution and the responsivness with as many devices I have had at home for each page. Test the nav bar button, when clicked menu of nav bar is showen. Each nav page is clickable. Cliking the nav bar favicon the navbar moves back and only the favicon is shown so that the user can easy click on it. The same test on the nav bar was repeated on each apge on different devices and works amazingly!
 
-
-
+The contact form filed and the requirement for the input tested and works great for the input of email as well for the textarea. When the send message button clicked the submission is opening the tahnkyou page. I didnt want to use target="_blank" in the thank you page but if the case and  purpose was to redirect the user to a new tab, then we would have add target="_blank" to the element, however so we se the following:
+![thank you page](/assets/documentations/thankyoupageScreenshot.png)
+the click "here" as shown on the page will redirect the user back to home page.
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |

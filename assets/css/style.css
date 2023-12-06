@@ -314,6 +314,10 @@ button:hover {
     padding: 30px; 
 }
 
+#thank-you-page h2, h3 {
+    font-size: small;
+}
+
 /* ----------------- FOOTER ----------------- */
 footer {
     justify-content: center;
@@ -411,6 +415,10 @@ footer {
     /* contact page for screen over 768px and more */
     #contact-form {
         width: 50%;
+    }
+    
+    #thank-you-page h2, h3 {
+        font-size: x-large;
     }
 }
 
